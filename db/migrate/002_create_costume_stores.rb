@@ -1,3 +1,6 @@
 class CostumeStores < ActiveRecord::Migration[4.2]
-  create_table :costume_stores
+  def create_table :costume_stores do |t|
+    
+  end
+  end
 end    
